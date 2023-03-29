@@ -35,6 +35,7 @@ server.listen(8080, '127.0.0.1', () => {
     console.info(`server started on port 8080`);
 });
 */
-server.listen(3001, () => {
+
+app.listen(3001, () => {
     console.log('listening on 3001');
 });
